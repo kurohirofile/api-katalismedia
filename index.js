@@ -14,7 +14,7 @@ try {
     console.error(error);
 }
 
-app.use(cors({ credentials:true, origin:'https://chatgpt-katalismedia.vercel.app' }));
+app.use(cors({ credentials:true, origin:'https://chat-katalismedia.vercel.app' }));
 app.use(cookieParser());
 app.use(express.json());
 app.use(router);
